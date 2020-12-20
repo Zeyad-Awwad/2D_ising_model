@@ -15,7 +15,7 @@ class Ising:
             inv_temp: Defines the inverse temperature (Beta = 1 / kT)
             magnetic_moment: Defines the intrinsic magentic moment for each particle
             magnetic_field: Defines a net magnetic field passing through the lattice
-            N_flip: The number of particles flipped in each step (should be << N^2)
+            batch_size: The number of particles flipped in each step (should be << N^2)
         
         Returns:
             An instance of the Ising class
